@@ -4,9 +4,7 @@ inoremap jk <Esc>
 
 " collapse consecutive spaces
 inoremap <M-space> <Esc>ciw <Esc>i
-inoremap <space> <Esc>ciw <Esc>i
 nnoremap <M-space> ciw <Esc>
-nnoremap <space> ciw <Esc>
 
 " command triggering without shift key
 nnoremap ; :
