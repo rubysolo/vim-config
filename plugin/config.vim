@@ -19,6 +19,10 @@ set backspace=indent,eol,start
 set scrolloff=5
 set laststatus=2 " always show status bar
 
+" better filename tab completion for commands
+set wildmode=longest:full
+set wildmenu
+
 " searching
 set ignorecase
 set smartcase
