@@ -54,8 +54,8 @@ vnoremap <tab> %
 
 " ruby hash syntax
 imap <C-l> <Space>=><Space>
-vnoremap <leader>h :s/:\(\w*\) *=>/\1:/g<cr>
-nnoremap <leader>h :%s/:\(\w*\) *=>/\1:/g<cr>
+vnoremap <leader>h :s/:\(\w*\) *=>/\1:/<cr>
+nnoremap <leader>h :%s/:\(\w*\) *=>/\1:/<cr>
 
 " current directory for commands
 cabbr <expr> %% expand('%:p:h')
