@@ -6,7 +6,8 @@ set background=dark
 set t_Co=256
 color grb256
 colorscheme Tomorrow-Night-Bright
-set guifont=PT\ Mono:h11
+set guifont=Source\ Code\ Pro\ Light\ for\ Powerline:h12
+let g:Powerline_symbols = 'fancy'
 
 " basic settings
 set nowrap
