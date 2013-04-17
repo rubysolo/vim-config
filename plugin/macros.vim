@@ -46,7 +46,7 @@ nmap <leader>sj :rightbelow new<CR>
 " searching
 nnoremap / /\v
 vnoremap / /\v
-nnoremap <cr> :noh<cr>
+nnoremap <space> :noh<cr>
 
 " jump to matching surround with tab
 nnoremap <tab> %
