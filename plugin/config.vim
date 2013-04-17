@@ -33,7 +33,6 @@ set showmatch
 set hlsearch
 
 " bling
-set number
 set ruler
 set cursorline
 set cursorcolumn
