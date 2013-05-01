@@ -1,6 +1,7 @@
 " escape key on home row
 inoremap kj <Esc>
 inoremap jk <Esc>
+inoremap jj <Esc>
 
 " collapse consecutive spaces
 inoremap <M-space> <Esc>ciw <Esc>i
