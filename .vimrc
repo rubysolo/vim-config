@@ -37,6 +37,7 @@ Bundle 'kien/rainbow_parentheses.vim'
 Bundle 'vim-ruby/vim-ruby'
 Bundle 'rking/vim-ruby-refactoring'
 Bundle 'tpope/vim-rails'
+Bundle 'slim-template/vim-slim'
 
 Bundle 'elixir-lang/vim-elixir'
 Bundle 'carlosgaldino/elixir-snippets'
