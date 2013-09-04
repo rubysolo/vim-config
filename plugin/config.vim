@@ -5,8 +5,8 @@ set encoding=utf-8
 set background=dark
 set t_Co=256
 color grb256
-colorscheme Tomorrow-Night-Bright
-set guifont=Source\ Code\ Pro\ Light\ for\ Powerline:h12
+colorscheme liquidcarbon
+set guifont=Sauce\ Code\ Powerline\ Light:h12
 let g:Powerline_symbols = 'fancy'
 
 " basic settings
@@ -33,6 +33,7 @@ set showmatch
 set hlsearch
 
 " bling
+set number
 set ruler
 set cursorline
 set cursorcolumn
