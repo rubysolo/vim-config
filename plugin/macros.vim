@@ -80,3 +80,6 @@ nmap _= :call Preserve("normal gg=G")<CR>
 " json pretty printing
 nmap <leader>jt :%!json_xs -f json -t json-pretty<CR>
 vmap <leader>jt :!json_xs -f json -t json-pretty<CR>
+
+" force write to protected file
+ca w!! w !sudo tee > /dev/null "%"
