@@ -32,8 +32,7 @@ Plugin 'msanders/snipmate.vim'
 Plugin 'scrooloose/snipmate-snippets'
 Plugin 'scrooloose/syntastic'
 
-" Plugin 'anzaika/go.vim'
-Plugin 'jnwhiteh/vim-golang'
+Plugin 'fatih/vim-go'
 
 Plugin 'kchmck/vim-coffee-script'
 
