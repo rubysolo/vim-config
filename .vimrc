@@ -2,56 +2,59 @@ set shell=/bin/bash
 set nocompatible
 filetype off
 
-set rtp+=~/.vim/bundle/vundle
-call vundle#rc()
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
 
-Bundle 'gmarik/vundle'
 
-Bundle 'AndrewRadev/splitjoin.vim'
-Bundle 'mkitt/browser-refresh.vim'
-Bundle 'bogado/file-line'
-Bundle 'Lokaltog/vim-easymotion'
-Bundle 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
+Plugin 'gmarik/vundle'
+
+Plugin 'AndrewRadev/splitjoin.vim'
+Plugin 'mkitt/browser-refresh.vim'
+Plugin 'bogado/file-line'
+Plugin 'Lokaltog/vim-easymotion'
+Plugin 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
 let g:ctrlp_map = '<c-p>'
 let g:ctrlp_cmd = 'CtrlP'
-Bundle 'kien/ctrlp.vim'
-Bundle 'jeffkreeftmeijer/vim-numbertoggle'
-Bundle 'godlygeek/tabular'
-Bundle 'epmatsw/ag.vim'
-Bundle 'bkad/CamelCaseMotion'
-Bundle 'vim-scripts/argtextobj.vim'
-Bundle 'rstacruz/sparkup'
-Bundle 'tpope/vim-commentary'
-Bundle 'tpope/vim-dispatch'
-Bundle 'tpope/vim-endwise'
-Bundle 'tpope/vim-fugitive'
-Bundle 'tpope/vim-repeat'
-Bundle 'tpope/vim-surround'
-Bundle 'msanders/snipmate.vim'
-Bundle 'scrooloose/snipmate-snippets'
-Bundle 'scrooloose/syntastic'
+Plugin 'kien/ctrlp.vim'
+Plugin 'jeffkreeftmeijer/vim-numbertoggle'
+Plugin 'godlygeek/tabular'
+Plugin 'epmatsw/ag.vim'
+Plugin 'bkad/CamelCaseMotion'
+Plugin 'vim-scripts/argtextobj.vim'
+Plugin 'rstacruz/sparkup'
+Plugin 'tpope/vim-commentary'
+Plugin 'tpope/vim-dispatch'
+Plugin 'tpope/vim-endwise'
+Plugin 'tpope/vim-fugitive'
+Plugin 'tpope/vim-repeat'
+Plugin 'tpope/vim-surround'
+Plugin 'msanders/snipmate.vim'
+Plugin 'scrooloose/snipmate-snippets'
+Plugin 'scrooloose/syntastic'
 
-" Bundle 'anzaika/go.vim'
-Bundle 'jnwhiteh/vim-golang'
+" Plugin 'anzaika/go.vim'
+Plugin 'jnwhiteh/vim-golang'
 
-Bundle 'kchmck/vim-coffee-script'
+Plugin 'kchmck/vim-coffee-script'
 
-Bundle 'guns/vim-clojure-static'
-Bundle 'tpope/vim-fireplace'
-Bundle 'kien/rainbow_parentheses.vim'
+Plugin 'guns/vim-clojure-static'
+Plugin 'tpope/vim-fireplace'
+Plugin 'kien/rainbow_parentheses.vim'
 
-Bundle 'vim-ruby/vim-ruby'
-Bundle 'rking/vim-ruby-refactoring'
-Bundle 'tpope/vim-rails'
-Bundle 'slim-template/vim-slim'
+Plugin 'vim-ruby/vim-ruby'
+Plugin 'rking/vim-ruby-refactoring'
+Plugin 'tpope/vim-rails'
+Plugin 'slim-template/vim-slim'
 
-Bundle 'digitaltoad/vim-jade'
-Bundle 'groenewege/vim-less'
+Plugin 'digitaltoad/vim-jade'
+Plugin 'groenewege/vim-less'
 
-Bundle 'elixir-lang/vim-elixir'
-Bundle 'carlosgaldino/elixir-snippets'
+Plugin 'elixir-lang/vim-elixir'
+Plugin 'carlosgaldino/elixir-snippets'
 
-Bundle 'rubysolo/vim-config'
-Bundle 'Floobits/floobits-vim'
+Plugin 'rubysolo/vim-config'
+"Plugin 'Floobits/floobits-vim'
+
+call vundle#end()
 
 filetype plugin indent on
