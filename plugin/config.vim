@@ -6,7 +6,7 @@ set background=dark
 set t_Co=256
 color grb256
 colorscheme liquidcarbon
-set guifont=Sauce\ Code\ Powerline\ Light:h12
+set guifont=Inconsolata\ for\ Powerline:h14
 let g:Powerline_symbols = 'fancy'
 
 " basic settings
