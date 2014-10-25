@@ -32,6 +32,8 @@ Plugin 'msanders/snipmate.vim'
 Plugin 'scrooloose/snipmate-snippets'
 Plugin 'scrooloose/syntastic'
 
+Plugin 'dag/vim2hs'
+
 Plugin 'fatih/vim-go'
 
 Plugin 'kchmck/vim-coffee-script'
